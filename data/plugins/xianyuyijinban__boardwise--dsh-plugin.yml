@@ -1,0 +1,7 @@
+url: https://github.com/xianyuyijinban/boardwise/tree/main/dsh-plugin
+name: xianyuyijinban/boardwise#dsh-plugin
+category: tools
+tarball: https://github.com/xianyuyijinban/boardwise/releases/download/v0.4.26/boardwise-dsh-0.1.0.tgz
+description:
+  en: 'Design review for EasyEDA Pro (LCEDA) from inside dsh: four tools over the local boardwise CLI. boardwise_checkup reviews one design and returns the report files it wrote — offline from an exported .epro2/.enet backup, or live on the project open in the editor; boardwise_arch generates the architecture walkthrough; boardwise_doctor diagnoses the local daemon, editor extension and connection; boardwise_bridge calls one connector action directly for probes and diagnostics. Review logic stays in the CLI, and the plugin only spawns it and returns stdout, the exit code and the artifact paths, with stdout truncated past 32 KB and token-shaped output masked. Needs the boardwise CLI installed locally: the released boardwise.exe, or the Python package installed from the repository.'
+  zh: '在 dsh 里做立创 EDA（EasyEDA Pro）设计审查：四个工具包住本机 boardwise CLI。boardwise_checkup 审查一个设计并返回它写出的报告文件——用导出的 .epro2/.enet 备份离线跑，或读编辑器里正开着的工程；boardwise_arch 生成架构走查；boardwise_doctor 体检本机 daemon、编辑器扩展与连接；boardwise_bridge 直接调一个连接器动作做探针与诊断。审查逻辑全在 CLI 里，插件只负责 spawn 并回传 stdout、exit code 与产物路径，stdout 超 32 KB 头尾截断，token 形状的输出打码。需要本机已装 boardwise CLI：release 里的 boardwise.exe，或用仓库里的脚本装 Python 包。'
